@@ -6,7 +6,7 @@ import time
 import bpy
 
 thikness = 0.9
-file_loc = 'D:\\FRANCE\\3DAI\\Imagerie 2D-3D\\Sphinx.obj'
+file_loc = 'Sphinx.obj'
 imported_object = bpy.ops.import_scene.obj(filepath=file_loc)
 
 def console_get():
